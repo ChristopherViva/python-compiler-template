@@ -11,6 +11,9 @@ A simple command-line tool to run Optical Character Recognition (OCR) on images 
 > Make sure to install the correct torch version as shown below.
 **pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0**
 
+> Build
+**pyinstaller --onefile --name [yourProgramName] main.py**
+
 
 ---
 
