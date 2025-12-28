@@ -1,0 +1,52 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# --- PyInstaller build outputs ---
+build/
+dist/
+*.toc
+*.pyz
+*.pkg
+*.log
+warn-*.txt
+xref-*.html
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- Linters / type checkers ---
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS junk (Windows/macOS) ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Local env files / secrets ---
+.env
+.env.*
